@@ -1,0 +1,37 @@
+    <html>
+   
+   <head>
+      <title>Welcome-Page</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/x-icon" href="dashboard.ico" />
+      <style type = "text/css">
+         body {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:14px;
+         }
+         label {
+            font-weight:bold;
+            width:100px;
+            font-size:14px;
+         }
+         .box {
+            border:#666666 solid 1px;
+         }
+		 .header {
+          overflow: hidden;
+          background-color: #99d6ff;
+          padding: 20px 10px;
+         }
+      </style>
+      
+   </head>
+   <h1>
+   <div class="header">You are logged in Sucessfully</div>
+   </h1>
+   <body bgcolor = "#FFFFFF">         
+               <form action ="retrieve" method="post">
+                  <label>Enter-Employee Id: </label><input type = "text" name = "id" class = "box"/><br /><br />
+                  <input type = "submit" value = "Get Details"/>
+               </form>
+   </body>
+</html>
